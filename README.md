@@ -8,3 +8,4 @@ To export the messages file: `ng extract-i18n localizations`
 
 To build the project localized: `ng build --localize`  
 
+Running using another localization: `pnpm run start:en`
