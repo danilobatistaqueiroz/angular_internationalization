@@ -63,6 +63,9 @@
               "optimization": false,
               "extractLicenses": false,
               "sourceMap": true
+            },
+            "en": {
+              "localize": ["en"]
             }
           },
           "defaultConfiguration": "production"
@@ -75,6 +78,9 @@
             },
             "development": {
               "buildTarget": "localizations:build:development"
+            },
+            "en": {
+              "buildTarget": "localizations:build:development,en"
             }
           },
           "defaultConfiguration": "development"
